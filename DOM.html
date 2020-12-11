@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dice</title>
+    <script src="javscr.js" defer></script>
+    <style>
+    body{
+      background-color: #fcd703;
+    }
+    .whowin{
+      text-align: center;
+      color: red;
+      font-family: cursive;
+      font-weight: 900;
+      font-size: 30px;
+      height: 200px;
+    }
+    .players{
+      display: flex;
+      justify-content: space-around;
+    }
+    .player{
+      width: 277px;
+      height: 277px;
+    }
+    .p1{
+      color: red;
+      font-family: cursive;
+      font-weight: 900;
+      font-size: 30px;
+    }
+    .kosty{
+      display: flex;
+      justify-content: space-around;
+    }
+    </style>
+  </head>
+  <body onload="num()">
+
+    <p class="whowin"></p>
+
+    <div class="players">
+      <p class="p1">Игрок №1</p>
+      <p class="p1">Игрок №2</p>
+    </div>
+
+    <div class="kosty">
+      <div class="player1 player"></div>
+      <div class="player2 player"></div>
+    </div>
+
+  </body>
+</html>
